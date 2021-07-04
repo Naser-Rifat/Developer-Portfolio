@@ -1,0 +1,33 @@
+body{
+
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+.orange{
+    color: orange;
+
+}
+section{
+    display: flex;
+}
+
+.Half-Width{
+
+    width:50%;
+    padding-left:6%;
+}
+
+.Half-Width img{
+
+    width: 70%;;
+}
+
+.hire{
+    text-decoration:none;
+    border-radius:5px;
+    color:white;
+    padding: 10px 40px;
+    background-color: orange;
+}
