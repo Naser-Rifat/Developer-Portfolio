@@ -1,6 +1,7 @@
 body{
 
     font-family:'Poppins', sans-serif;
+    margin:0px;
 }
 
 .header{
@@ -14,6 +15,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 130px;
 }
 
 .Half-Width{
@@ -26,6 +28,12 @@ section{
 
     width: 70%;;
 }
+.banner-middle{
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;  
+}
 
 .hire{
     text-decoration:none;
@@ -36,4 +44,8 @@ section{
     font-weight: 700;
 }  
 
-f
+.banner-top{
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
