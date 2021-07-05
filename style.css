@@ -7,15 +7,21 @@ body{
 .header{
 
     font-size:50px;
+
 }
 
 .orange{
     color: orange;
 
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 130px;
+}
+.p-middle{
+
+    padding-right:150px;
+    text-align: justify;
 }
 
 .Half-Width{
@@ -35,6 +41,7 @@ section{
     background-position:right;  
 }
 
+
 .hire{
     text-decoration:none;
     border-radius:5px;
@@ -48,4 +55,33 @@ section{
 
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.experience-section{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+.experience{
+    width:40%;
+    box-shadow:10px 10px 40px grey;
+    margin:3%;
+    padding:50px;
+    border-radius:11px;
+}
+#senior-border{
+    border-left:7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1;
+}
+
+#fullstack-border{
+    border-left:7px solid;
+    border-image:linear-gradient(to bottom, red,yellow);
+    border-image-slice:1;
+}
+
+footer p{
+    text-align: center;
 }
