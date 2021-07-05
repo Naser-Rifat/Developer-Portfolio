@@ -69,6 +69,7 @@ body{
     margin:3%;
     padding:50px;
     border-radius:11px;
+    text-align: justify;
 }
 #senior-border{
     border-left:7px solid;
